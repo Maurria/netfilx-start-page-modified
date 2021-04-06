@@ -1,2 +1,1 @@
-# netfilx-start-page-modified
-Uma página simples baseada na página inicial da Netflix, mas com o tema natureza.
+# Uma página simples baseada na página inicial da Netflix, mas com o tema natureza.
