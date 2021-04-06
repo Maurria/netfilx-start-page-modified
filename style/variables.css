@@ -1,0 +1,9 @@
+/* Criando variáveis e setando valores em css */
+/* Foram criadas variáveis que armazenam o código das cores que serão usadas no site */
+:root{
+    --yellow: #f3d350;
+    --black: #181616f7;
+    --white: #ffffff;
+    --gray: #8c8b8b;
+    --trasnlucide: rgba(0,0,0,.50);
+}

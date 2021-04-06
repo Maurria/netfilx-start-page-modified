@@ -1,0 +1,42 @@
+@import './variables.css';
+
+/* Para quando inicializamos a página */
+/* Iniciar o corpo "anulando" seus valores para evitar bugs */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+/* Setando as cores padrão para o site */
+body{
+    background-color: var(--black);
+    color: var(--white);
+    font-family: 'Times New Roman', 'Times, serif';
+}
+
+/* Ajustando o menu do site */
+header{
+    background-color: var(--black);
+}
+header .container{
+    color: var(--yellow);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+header nav a{
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    border-radius: 5%;
+}
+header nav a:hover{
+    background-color: var(--gray);
+}

@@ -1,0 +1,89 @@
+@import url('./variables.css');
+@import url('./default-tags.css');
+
+.carousel-theme-video a:link, a:visited{
+    color: var(--yellow);
+    text-decoration: none;
+    cursor: auto;
+}
+
+/* principal */
+.main{
+    font-size: 16px;
+    background: linear-gradient(var(--trasnlucide), var(--trasnlucide)100%) , url('../imgs/biomas-brasileiros.png');
+    
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.main .container{
+    width: 70%;
+}
+
+.main .description{
+    margin-top: 10px;
+}
+.title{
+    margin-top: 15%;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 40px;
+}
+
+/* Para os botões */
+.botoes{
+    margin-top: 15px;
+    flex-direction: row;
+} 
+.botao{
+    background-color: var(--trasnlucide);
+    border: none;
+    color: var(--white);
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: 120ms ease all;
+}
+.botao:hover{
+    background-color: var(--white);
+    color: var(--black);
+}
+.botao i{
+    margin-right: 8px;
+}
+
+/* Container padrão */
+.container{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Container para cada tema*/
+.carousel-theme-video{
+    margin-top: 20px;
+}
+
+/* Container para cada item de cada tema */
+.box-item{
+    height: 250px;
+    width: 60%;
+    display: block;
+}
+.theme:hover{
+    background-color: var(--gray);
+}
+
+.item-name{
+    text-align: center;
+}
+
+.item:hover .item-name{
+    background-color: var(--gray);
+}
+
